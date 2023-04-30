@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'galactus' => [
+        'baseUri' => env('GALACTUS_BASE_URI'),
+        'username' => env('GALACTUS_USERNAME'),
+        'password' => env('GALACTUS_PASSWORD'),
+    ]
 ];
